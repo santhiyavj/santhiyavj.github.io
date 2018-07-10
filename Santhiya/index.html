@@ -1,0 +1,595 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SandyVj</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Wear Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="Needed/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!--gallery pop-up-css file -->
+<link rel="stylesheet" href="Needed/css/chocolat.css" type="text/css">
+<!-- // gallery pop-up-css file -->
+
+<!-- css -->
+<link rel="stylesheet" href="Needed/css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="Needed/css/flexslider.css" type="text/css" media="screen" />
+
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="Needed/css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- //font -->
+<script src="Needed/js/jquery-1.11.1.min.js"></script>
+<script src="Needed/js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<style>
+    *-- Gallery Section --*/ .gallery-grid1 img {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    /*--Gallery hover effect--*/
+
+    .gallery-grid1 {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+        .gallery-grid1 .p-mask,
+        .row .product .vm-product-media-container .p-mask {
+            opacity: 0;
+            visibility: hidden;
+            background: rgba(4, 4, 4, 0.75);
+            bottom: 0%;
+            position: absolute;
+            padding: 1em 1.3em;
+            width: 100%;
+            -webkit-transform: translate3d( 0px, 100%, 0px);
+            -moz-transform: translate3d( 0px, 100%, 0px);
+            -ms-transform: translate3d( 0px, 100%, 0px);
+            -o-transform: translate3d( 0px, 100%, 0px);
+            transform: translate3d( 0px, 100%, 0px);
+            -webkit-transition: all .5s ease 0s;
+            -moz-transition: all .5s ease 0s;
+            transition: all .5s ease 0s;
+            text-align: left;
+        }
+
+            .gallery-grid1 .p-mask .p-desc {
+                color: #a3a3a3;
+                position: relative;
+                display: block;
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+                font-size: 1em;
+            }
+
+        .gallery-grid1:hover .p-mask,
+        .row .product:hover .p-mask {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: translate3d( 0px, 0px, 0px);
+            -moz-transform: translate3d( 0px, 0px, 0px);
+            -ms-transform: translate3d( 0px, 0px, 0px);
+            -o-transform: translate3d( 0px, 0px, 0px);
+            transform: translate3d( 0px, 0px, 0px);
+        }
+
+    .p-mask h4 {
+        color: #ff3c41;
+        font-size: 1.3em;
+        text-decoration: none;
+        line-height: 1.8em;
+        letter-spacing: 3px;
+    }
+
+    .p-mask p {
+        margin: 0;
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .gal-sec {
+        padding: 0;
+    }
+
+    /*-- //Gallery Section --*/
+</style>
+<body>
+	<!-- banner -->
+	<div class="banner" id="home">
+		<div class="w3-header-bottom">
+			<div class="w3layouts-logo">
+				<h1>
+					<a href="index.html">SandyVj </a>
+					<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+					
+				</h1>
+			</div>
+			<div class="top-nav">
+						<nav class="navbar navbar-default">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li class="first-list"><a class="active" href="index.html">Home</a></li>
+									<li><a href="#about" class="scroll">About</a></li>
+									<li><a href="#services" class="scroll">Hobbies</a></li>
+									<li><a href="#models" class="scroll">Portfolio</a></li>
+									<li><a href="#mail" class="scroll">Contact</a></li>
+								</ul>	
+								<div class="clearfix"> </div>
+							</div>	
+						</nav>		
+			</div>
+			<div class="agileinfo-social-grids">
+				<ul>
+					<li><a href="https://www.facebook.com/liteesh.santhiya"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/liteesh.santhiya/"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="container">
+				<div class="w3-banner-info">
+					<div class="slider">
+						<div class="callbacks_container">
+							
+                            <div class="w3layouts-banner-info">
+                                <h3>Lorem<span>Fashion</span>ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt tortor leo, at pulvinar metus accumsan vitae.</p>
+                            </div>
+						</div>
+						<div class="clearfix"> </div>
+									
+									<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Wear fashions</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="Needed/images/pop1.jpg" alt="" />
+						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- about -->
+	<div class="about wthree-about" id="about">
+		<div class="container"> 
+			<!-- about-section2 -->
+			<div class="about-section abt-w3sec2">
+				<div class="col-md-5 ab-text two w3-agileits">
+					<h3 class="agileits-title">About</h3> 
+					<h6>Itaque earum rerum hic tenetur a optio sapiente nihil impedit</h6>
+					<p>Lorem ipsum Nam libero tempore cum soluta nobis esteligen dioptio cumque nihil impedit quo minus id quod maxime pla ceatfacere.Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+					<div class="start">
+						<a href="#" class="hvr-bounce-to-bottom">Read more</a>
+					</div> 
+				</div>
+				<div class="col-md-7 ab-left w3-agileits">
+					<div class="grid">
+						<div class="col-xs-6 abt-w3limg">
+							<figure class="effect-jazz">
+								<img src="Needed/images/sa.jpg" alt=""/>
+								<figcaption>
+									<h4>Best<span>looks</span></h4>  
+									<p>Lorem ipsum Nam libero tempore cum soluta nobis est at facere nobis.</p> 
+								</figcaption>			
+							</figure> 
+						</div>
+						<div class="col-xs-6 abt-w3limg">
+							<figure class="effect-jazz">
+								<img src="Needed/images/New Project.png" alt=""/>
+								<figcaption>
+									<h4>trend<span>point</span></h4>
+									<p>Lorem ipsum Nam libero tempore cum soluta nobis est at facere nobis.</p> 
+								</figcaption>			
+							</figure> 
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //about-section2 -->
+		</div>
+	</div>
+	<!-- //about --> 
+
+	<!-- /services -->
+	<div class="w3-services" id="services">
+			<div class="w3-services-grids">
+				<div class="col-md-4 w3-services-left-grid">
+					<h3>My Hobbies</h3>
+					<h4>Free time. I would like following this</h4>
+					
+				</div>
+				<div class="col-md-8 w3-services-right-grid">
+				<div class="w3-icon-grid-gap1">
+					<div class="col-md-3 w3-icon-grid1">
+					<i class="fa fa-group" aria-hidden="true"></i>
+						<h3>Staying with Friends</h3>
+					</div>
+					<div class="col-md-3 w3-icon-grid1">
+					<i class="fa fa-laptop" aria-hidden="true"></i>
+					<h3>Movies</h3>
+					</div>
+					<div class="col-md-3 w3-icon-grid1">
+					<i class="fa fa-female" aria-hidden="true"></i>
+						<h3>Dress Collected</h3>
+					</div>
+					<div class="col-md-3 w3-icon-grid1">
+					<i class="fa fa-plane" aria-hidden="true"></i>
+					<h3>Travelling</h3>
+					</div>
+					<div class="clearfix"></div>
+					</div>
+					<div class="w3-icon-grid-gap2">
+					<div class="col-md-3 w3-icon-grid1">
+					<i class="fa fa-music" aria-hidden="true"></i>
+					<h3>Music</h3>
+					</div>
+				
+					<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+		</div>
+	</div>
+
+	<!-- //services -->
+	<!-- /team -->
+	<div class="w3-team" id="models">
+	<div class="w3-team-head">
+			<h3>Our Models</h3>
+	</div>
+		<div class="container">
+			<div class="w3-team-grids">
+				<div class="col-md-4 w3-team-grid">
+					<img src="Needed/images/foto5.jpg" alt="img">
+					<h3></h3>
+					<ul class="team-social">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+				</div>
+				<div class="col-md-4 w3-team-grid">
+				<img src="Needed/images/foto6.jpg" alt="img">
+					<h3></h3>
+					<ul class="team-social">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+				</div>
+				<div class="col-md-4 w3-team-grid">
+				<img src="Needed/images/foto7.jpg" alt="img">
+					<h3></h3>
+					<ul class="team-social">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- portfolio -->
+	 <div class="gallery_sec" id="gallery">
+        <div class="col-md-4 col-sm-4 col-xs-4 gal-sec">
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto1.jpg">
+                    <img src="Needed/images/foto1.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>SkyWalk</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto2.jpg">
+                    <img src="Needed/images/foto2.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>Vandalur</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto3.jpg">
+                    <img src="Needed/images/foto3.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>SaravanaStore</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto4.jpg">
+                    <img src="Needed/images/foto4.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>Phoneix Mall</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4 gal-sec">
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto5.jpg">
+                    <img src="Needed/images/foto5.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>Kishkindha</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto6.jpg">
+                    <img src="Needed/images/foto6.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>Metro</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/saa.jpg">
+                    <img src="Needed/images/saa.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>Casual Click</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto7.jpg">
+                    <img src="Needed/images/foto7.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>Outing</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto19.jpg">
+                    <img src="Needed/images/foto19.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>Phoneix Mall</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4 gal-sec">
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto8.jpg">
+                    <img src="Needed/images/foto8.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>Outing</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto9.jpg">
+                    <img src="Needed/images/foto9.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>CuteClick wiht my sis</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid1">
+                <a title="100% Satisfaction." href="Needed/images/foto22.jpg">
+                    <img src="Needed/images/foto22.jpg" alt=" " class="img-responsive" />
+                    <div class="p-mask">
+                        <h4>LoyalaCollage</h4>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </div>
+          
+
+        </div>
+
+
+        <div class="clearfix"></div>
+    </div>
+<!-- //portfolio -->
+
+
+	<!-- testimonials -->
+<div class="testimonials" id="testimonials">
+	<div class="container">
+		<div class="w3-testimonials-head">
+		<h3>Thanks for visiting my site</h3>
+		</div>
+		
+	</div>
+</div>
+<!-- //testimonials -->
+<!-- contact form  -->
+	<div id="mail" class="contact" >
+		<div class="container">
+			<h3 class="wthree_head_contact">contact us</h3>
+			<div class="w3layouts_mail_grids">
+				<div class="col-md-5 w3layouts_mail_grid_left">
+					<div class="w3_agile_contact_left">
+						<ul>
+							<li><img src="Needed/images/foto1.jpg" alt=" " class="img-responsive" /></li>
+							<li><img src="Needed/images/foto5.jpg" alt=" " class="img-responsive" /></li>
+							<li><img src="Needed/images/foto18.jpg" alt=" " class="img-responsive" /></li>
+							<li><img src="Needed/images/foto19.jpg" alt=" " class="img-responsive" /></li>
+							<li><img src="Needed/images/foto20.jpg" alt=" " class="img-responsive" /></li>
+							<li><img src="Needed/images/foto21.jpg" alt=" " class="img-responsive" /></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-7 w3layouts_mail_grid_right">
+					<form method="POST" action="//formspree.io/liteesh.santhiya@gmail.com">
+						<div class="col-md-6 wthree_contact_left_grid">
+							<input type="text" name="Name" placeholder="Name" required="">
+							<input type="email" name="Email" placeholder="Email" required="">
+						</div>
+						<div class="col-md-6 wthree_contact_left_grid">
+							<input type="text" name="Telephone" placeholder="Telephone" required="">
+							<input type="text" name="Subject" placeholder="Subject" required="">
+						</div>
+						<div class="clearfix"> </div>
+						<textarea name="Message" placeholder="Message..." required=""></textarea>
+						<input type="submit" value="Submit">
+						<input type="reset" value="Clear">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //contact form -->
+
+<!-- //contact -->	
+<!-- //main -->
+
+<!-- footer -->
+
+<div class="footer-bot wow fadeInRight animated" data-wow-delay=".5s">
+	<div class="container">
+			<div class="logo2">
+				<h3><a href="index.html">SandyVj</a></h3>
+			</div>
+			<div class="ftr-menu">
+				 <ul>
+					<li><a class="scroll" href="#home">Home </a></li>
+					<li><a class="scroll" href="#about">About</a></li>
+					<li><a class="scroll" href="#services">Hobbies</a></li>
+					<li><a class="scroll" href="#models">Portfolio</a></li>
+					<li><a class="scroll" href="#contact">Contact</a></li>
+				 </ul>
+			</div>
+			<div class="clearfix"></div>
+	</div>
+</div>
+<div class="copy-right wow fadeInLeft animated" data-wow-delay=".5s">
+	<div class="container">
+			<p> &copy; 2018 Site . All Rights Reserved | Design by  <a href="#"> SandyVj</a></p>
+	</div>
+</div>
+<!-- //footer -->
+
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+										// You can also use "$(window).load(function() {"
+										$(function () {
+										  // Slideshow 4
+										  $("#slider4").responsiveSlides({
+											auto: true,
+											pager:true,
+											nav:false,
+											speed: 400,
+											namespace: "callbacks",
+											before: function () {
+											  $('.events').append("<li>before event fired.</li>");
+											},
+											after: function () {
+											  $('.events').append("<li>after event fired.</li>");
+											}
+										  });
+									
+										});
+									 </script>
+	<!-- gallery-pop-up-script -->
+<script src="js/jquery.chocolat.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('.view-seventh a').Chocolat();
+});
+</script>
+<!-- //gallery-pop-up-script -->
+
+	
+<script defer src="js/jquery.flexslider.js"></script>
+<!--Start-slider-script-->
+		<script type="text/javascript">
+		
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	  </script>
+
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>	
+</html>
