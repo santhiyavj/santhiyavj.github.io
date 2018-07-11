@@ -768,7 +768,7 @@ figure.effect-jazz:hover p {
 .w3-services{
    background: url(../images/back.png) no-repeat 0px 0px;
     background-size: cover;
-    min-height: 500px;
+    min-height: 40%;
 }
 .w3-services-left-grid h3 {
     color: #fff;
