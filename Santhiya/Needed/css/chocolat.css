@@ -3,7 +3,7 @@ body{
 	padding:0;
 }
 #Choco_overlay{
-	background:#212121 !important;
+    background: #0a0a0a !important;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -83,8 +83,8 @@ body{
 	background:gray;
 }
 #Choco_close{
-	width:30px;
-	height:25px;
+	width:32px;
+	height:32px;
 	background-image:url(../images/close.png)!important;
 	background-repeat:no-repeat;
 	z-index:1002;
@@ -109,4 +109,12 @@ body{
 	width:100%;
 	height:100%;
 	margin-top:-5px;
+}
+@media(max-width:800px){
+	#Choco_right_arrow {
+		left: 15%;
+	}
+	#Choco_left_arrow {
+		left: -15%;
+	}
 }
